@@ -1,0 +1,16 @@
+.grid {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(50, 20px);
+  place-content: center;
+}
+
+.grid__cell {
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgb(42, 42, 42);
+}
+
+.grid__cellColored {
+  background-color: rgb(217, 0, 255);
+}

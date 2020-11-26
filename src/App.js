@@ -1,11 +1,12 @@
 import "./App.css";
+import Grid from "./components/Grid";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
-      <h1>Welcome Home</h1>
+      <Grid />
     </div>
   );
-}
+};
 
 export default App;
